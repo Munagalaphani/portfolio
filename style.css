@@ -13,7 +13,7 @@
 .navbar::before{
     content: "";
     position: absolute;
-    background-color:aquamarine;
+    background-color:grey;
     height:100%;
     width: 100%;
     z-index: -1;
@@ -30,7 +30,7 @@
 .navbar ul li a{
     padding: 5px 120px;
     text-decoration: none;
-    color: white;
+    color:black;
 }
 .navbar ul li a:hover{
     border-bottom: 2px solid black;
@@ -43,7 +43,7 @@
     justify-content: center;
     align-items: center;
     background-color:azure;
-    color:chocolate;
+    color:black;
 
 }
 #home::before{
@@ -58,7 +58,7 @@
 
 }
 .heading{
-    color:chocolate;
+    color:black;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
